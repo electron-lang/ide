@@ -1,0 +1,8 @@
+node_modules/
+*.log
+dist/
+lib/
+src-gen/
+webpack.config.js
+package-lock.json
+package-backup.json

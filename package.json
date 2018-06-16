@@ -1,0 +1,53 @@
+{
+  "private": true,
+  "name": "electron-ide",
+  "version": "1.0.0",
+  "description": "A Theia based IDE for Electron.",
+  "main": "src-gen/frontend/electron-main.js",
+  "repository": "https://github.com/electron-lang/electron",
+  "author": "David Craven <david@craven.ch>",
+  "license": "ISC",
+  "theia": {
+    "target": "electron"
+  },
+  "scripts": {
+    "prepare": "yarn run build",
+    "build": "theia build && electron-builder"
+  },
+  "dependencies": {
+    "@electron-lang/theia-electron": "file:../electron-workspace/theia-electron",
+    "@theia/callhierarchy": "latest",
+    "@theia/core": "latest",
+    "@theia/cpp": "latest",
+    "@theia/editor": "latest",
+    "@theia/editorconfig": "latest",
+    "@theia/extension-manager": "latest",
+    "@theia/file-search": "latest",
+    "@theia/filesystem": "latest",
+    "@theia/git": "latest",
+    "@theia/keymaps": "latest",
+    "@theia/languages": "latest",
+    "@theia/markers": "latest",
+    "@theia/merge-conflicts": "latest",
+    "@theia/messages": "latest",
+    "@theia/metrics": "latest",
+    "@theia/mini-browser": "latest",
+    "@theia/monaco": "latest",
+    "@theia/navigator": "latest",
+    "@theia/outline-view": "latest",
+    "@theia/output": "latest",
+    "@theia/preferences": "latest",
+    "@theia/preview": "latest",
+    "@theia/process": "latest",
+    "@theia/search-in-workspace": "latest",
+    "@theia/task": "latest",
+    "@theia/terminal": "latest",
+    "@theia/userstorage": "latest",
+    "@theia/variable-resolver": "latest",
+    "@theia/workspace": "latest"
+  },
+  "devDependencies": {
+    "@theia/cli": "latest",
+    "electron-builder": "^20.10.0"
+  }
+}

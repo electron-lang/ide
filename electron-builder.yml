@@ -1,0 +1,12 @@
+appId: "electron-ide"
+productName: "Electron IDE"
+files: ["src-gen/**/*", "lib/**/*", "node_modules/**/*", "package.json"]
+asar: false
+publish: null
+
+linux:
+  target:
+    - AppImage
+  category: "Development"
+  desktop:
+    StartupWMClass: "electron-ide"
