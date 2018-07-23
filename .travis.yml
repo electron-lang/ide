@@ -9,3 +9,10 @@ cache:
   - node_modules
 script:
 - yarn
+deploy:
+  provider: releases
+  api_key: $GITHUB_RELEASE_TOKEN
+  file: dist/electron-ide-*-x86_64.AppImage
+  skip_cleanup: true
+  on:
+    tags: true
