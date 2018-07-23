@@ -12,7 +12,9 @@ script:
 deploy:
   provider: releases
   api_key: $GITHUB_RELEASE_TOKEN
-  file: dist/*.AppImage
+  file_glob: true
+  file:
+    - dist/*.AppImage
   skip_cleanup: true
   on:
     tags: true
