@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "electron-ide",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A Theia based IDE for Electron.",
   "main": "src-gen/frontend/electron-main.js",
   "repository": "https://github.com/electron-lang/electron",
