@@ -1,4 +1,4 @@
-# Electron IDE [![Build Status](https://travis-ci.org/electron-lang/electron-ide.svg?branch=master)](https://travis-ci.org/electron-lang/electron-ide) [![Gitter](https://badges.gitter.im/electron-lang/electron.svg)](https://gitter.im/electron-lang/electron)
+# Electron IDE [![Build Status](https://travis-ci.org/electron-lang/ide.svg?branch=master)](https://travis-ci.org/electron-lang/ide) [![Gitter](https://badges.gitter.im/electron-lang/electron.svg)](https://gitter.im/electron-lang/electron)
 
 This repo creates multiplatform builds of the electron-ide.
 
